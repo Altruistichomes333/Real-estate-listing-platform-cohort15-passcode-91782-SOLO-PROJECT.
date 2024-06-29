@@ -1,0 +1,90 @@
+
+  
+
+
+.dashboard-container {
+  background-image: url(' https://miro.medium.com/v2/resize:fit:1100/format:webp/0*TWNY3pr84DfFf-F_.jpg;');
+  background-size: auto;
+  backface-visibility: visible;
+  background-repeat: repeat;
+    display: flex;
+    height: 400vh;
+  } 
+  
+  .sidebar {
+    /* background-color: #bae22b; */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-menu li a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: medium;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+
+/* drodwon design start here   */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+}
+
+nav li {
+  position: relative;
+  margin: 0 10px;
+}
+
+nav li a {
+  color: white;
+  text-shadow: #333;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown li {
+  display: block;
+  margin: 0;
+  
+}
+
+.dropdown li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav li:hover >.dropdown {
+  display: block;
+  background-color: black;
+  border-radius: 10px;
+  color: black;
+}
+
+/* dropdown design end here */

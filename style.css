@@ -1,0 +1,328 @@
+
+
+/* Add your CSS styles here */
+body {
+  background-image: url('https://victoriacresthomes.ng/wp-content/uploads/2023/09/WhatsApp-Image-2020-12-24-at-15.30.572-758x564.jpeg');
+  background-size: auto;
+  background-position: left;
+  backface-visibility: visible;
+  /* background-blend-mode: luminosity; */
+  /* opacity: 0.7; */
+  background-repeat: repeat;
+  margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* height: 200vh; */
+    
+  }
+
+
+ 
+  
+.video{
+  width: 70%;
+  /* height: 100h; */
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+/* header design start here */
+  
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+}
+
+nav li {
+  position: relative;
+  margin: 0 10px;
+}
+
+nav li a {
+  color: black;
+  text-shadow: #333;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown li {
+  display: block;
+  margin: 0;
+  
+}
+
+.dropdown li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav li:hover >.dropdown {
+  display: block;
+  background-color: yellow;
+  border-radius: 20px;
+  color: black;
+}
+
+  
+/* } */
+
+/* /*  */
+  header {
+   text-align: center; 
+    background-color: blueviolet;
+    color: #fff;
+    padding: 1rem;
+    /* display: grid; */
+    /* margin-top: 5px; */
+  }
+
+  .logo{
+width: 20%;
+border-radius: 7px;
+height: 10vh;
+/* background-color: red; */
+margin-top: 2px;
+  }
+
+  .logo:hover{
+    width: 30%;
+    height: 30vh;
+    background-color: white;
+    /* color: black; */
+    /* border: 2px rgb(84, 3, 160) solid; */
+  }
+  header h1{
+    text-align: center;
+    
+  }
+  
+  nav ul {
+    
+    list-style-type: none;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+.container-fluid{
+
+  width: 100%;
+  color: aliceblue;
+  padding: 1rem;
+  text-align: center;
+  height: 44vh;
+  background-color: blueviolet;
+  /* position: fixed; */
+
+}
+
+
+
+/* footer section start here  */
+.container4{
+   
+  background-color: blueviolet;
+  color: aliceblue;
+  height: 160vh;
+  text-decoration: none;
+  
+}
+.footer-flex{
+display: flex;
+
+
+}
+.list li a{
+  color: aliceblue;
+  font-size: 17px;
+  text-decoration: none;
+}
+.list h3{
+  font-weight: bold;
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
+.list{
+  /* background-color: aqua; */
+  margin: 35px;
+  padding: 8px;
+  text-decoration: none;
+  
+}
+.fada{
+  padding-bottom: 18px;
+  
+  
+}
+.fada a:hover{
+  text-decoration: none;
+  color: blue;
+  
+}
+.icon a{
+  color: aliceblue;
+  margin: 10px;
+  
+}
+.socail{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 10vh;
+  background-color: blueviolet;
+  margin: 10px;
+}
+.fa-twitter:hover{
+  
+  color: rgb(148, 148, 148);
+  transform: scale(1.5);
+  background-color: rgba(243, 239, 7, 0.315);
+  border-radius: 4px;
+
+}
+
+.fa-twitter{
+  color: black;
+  background-color: aliceblue;
+}
+.icon{
+  
+  margin-left: 40%;
+  padding-top: 10px;
+}
+
+.fa-facebook:hover{
+  
+  color: rgb(10, 61, 226);
+  transform: scale(1.5);
+  background-color: rgba(243, 239, 7, 0.315);
+  border-radius: 4px;
+
+}
+
+.fa-facebook{
+  width: 10px;
+  /* height: 4vh; */
+  background-color: white;
+  color: blue;
+}
+
+.fa-youtube:hover{
+  
+  color: white;
+  transform: scale(1.5);
+  background-color: red;
+  border-radius: 4px;
+
+}
+
+.fa-youtube{
+  color: white;
+  background-color: red;
+}
+
+
+.fa-whatsapp:hover{
+  
+  color: green;
+  transform: scale(1.5);
+  background-color: white;
+  border-radius: 4px;
+
+}
+
+.fa-whatsapp{
+  color: white;
+  background-color: green;
+
+}
+
+
+
+.fa-telegram:hover{
+  
+  color: rgb(6, 172, 172);
+  transform: scale(1.5);
+  background-color: rgba(241, 158, 56, 0.486);
+  border-radius: 4px
+}
+
+.fa-telegram{
+  color: aqua;
+  background-color: aliceblue;
+}
+
+.fa-instagram:hover{
+  
+  color: darkorchid;
+  transform: scale(1.5);
+  background-color: rgba(241, 158, 56, 0.486);
+  border-radius: 4px
+}
+
+.fa-instagram{
+  color: blue;
+  background-color: darkmagenta;
+}
+
+.english{
+  margin: auto;
+  background-color: black;
+  width: 20%;
+  
+}
+.eng a{
+  color: aliceblue;
+  font-size: 20px;
+}
+.go{
+  margin: 10px;
+}
+.eng a:hover{
+  
+  color: rgb(6, 172, 172);
+  text-decoration: none;
+
+}
+
+
+.container-fluid2{
+  text-decoration: none;
+}
+
+.dash{
+  
+  color: aliceblue;
+  width: 85%;
+  height: 5vh;
+  font-weight: bolder;
+}

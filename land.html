@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landed Properties</title>
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  
+
+  <link rel="stylesheet" href="land.css">
+</head>
+
+<body>
+
+
+  <div class="container-fluid" >
+
+
+
+
+    
+    <header>  
+      
+    
+      <div class="logo">
+        <a href="">
+          <img src="https://i.pinimg.com/474x/d4/20/ac/d420ac751563a3d498bd84cdf69386bb.jpg" alt="Company Logo" style="width:80%; height: 20vh;">
+        </a>
+      </div>
+  
+     
+      <h1>ALTRUISTIC HOMES</h1>
+
+    
+      <nav>
+        <ul>
+            <li>
+                <a href="#"> HOUSES</a>
+                <ul class="dropdown">
+                    <li><a href="house.html">NIGERIA</a></li>
+                    <li><a href="#">DIASPORA</a></li>
+                    <!-- <li><a href="#">Dropdown Item 3</a></li> -->
+                    <!-- <li><a href="#">Dropdown Item 4</a></li> -->
+    
+                </ul>
+            </li>
+        
+            <li>
+                <a href="#"> LANDED PROPERTIES</a>
+                <ul class="dropdown">
+                    <li><a href="land.html">NIGERIA</a></li>
+                    <li><a href="#">DIASPORA</a></li>
+                    <!-- <li><a href="#">Dropdown Item 3</a></li> -->
+                    <!-- <li><a href="#">Dropdown Item 4</a></li> -->
+  
+                </ul>
+            </li>
+        
+     
+  <nav>
+    <ul> 
+        <li><a href="#">PROMO-PROPERTIES</a></li>
+        <li><a href="#">INQUIRE</a></li>
+        <!-- <li><a href="land.html">NIGERIA PROPERTIES</a></li> -->
+        
+
+   <li><a href="#">SEARCH</a></li>
+   <li><a href="#">BROWSE</a></li>
+        <!-- <li><a href="#">DIASPORA PROPERTIES</a></li> -->
+
+
+      </ul>
+      
+    </div>
+      </nav>
+
+  </div>
+     
+
+</div>
+</header> 
+
+<div id="payment-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Enter Payment Details</h2>
+    <label for="card">Card Number:</label>
+    <input type="text" id="card" name="card">
+    <label for="expiry">Expiration Date:</label>
+    <input type="text" id="expiry" name="expiry">
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv">
+    <button id="pay-now">Pay Now</button>
+  </div>
+</div>
+
+        
+         <br>  <br>  <br>   
+
+         
+
+<!-- 
+<div class="container-1"   style="width: 100%; border-style: double; border-radius: 5px; border-bottom-color: blueviolet;"> -->
+  
+  
+    <article class="menu-item col-5 border border-1 row"; style=" width: 90%;  height: 70vh; margin-top: 200px;  border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+  
+  <h2 class="ps-5"></h2>
+
+    <div class="col-5">
+      <div class="card" style="width: 50rem;">
+        <div class="card-body " >
+          <img src=" https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/04/1000002184-400x280.jpg?lossy=2&strip=1&webp=1" class="enlarge-image"  alt="">
+                    <li class="fada" ></li> <h1> FOR SALE,  ₦1,200,000</h1></li>
+                    
+          <h4 class="card-text">HARMONY HAVEN CITY IGBOOYE TOWN 1.2M DEVELOPED BY OINZ HOMES AND PROPERTIES LIMITED
+            Land Type Residential  State Lagos  City Lekki  Town Igbooye Epe  Parking Spaces 6  Business Name OINZ HOMES AND PROPERTIES LIMITED
+            Epe, Lagos
+            Harmony Haven City in Igboye Town, Ogun State, Epe – a prime real estate opportunity that offers a harmonious living experience. With flexible payment plans…</h4>
+            <li class="fada"><a href="#">Details</a></li>  
+            </p>
+    <button class="buy-button" onclick="buyItem('Harmony haven city', 1200000)">Buy Now</button>
+
+        </div>
+      </div>
+      
+    </div>
+  </article>
+<!-- </div>  -->
+<br><br><br><br><br>
+
+
+    
+      <article class="menu-item col-5 border border-1 row"; style=" width: 90%;  height: 70vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+      <h2 class="ps-5"> UYO AKWA IBOM, residential </h2>
+    <div class="col-5">
+      <div class="card" style="width: 50rem;">
+        <div class="card-body">
+          <img class="enlarge-image" src=" https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/04/bliss-vale-estate-phase-1-864x605.jpg?lossy=2&strip=1&webp=1" class="enlarge-image" alt="">
+          <h1 class="card-title">FOR SALE   ₦3,500,000</h1>
+          <p class="card-text"> LOCATION; Uyo, Akwa Ibom.
+                              Category: Plots & Land
+          
+            Land Type: Residential
+            Land Size: 600sqm          
+            </p>
+    <button class="buy-button" onclick="buyItem('Uyo, residential', 3500000)">Buy Now</button>
+
+        </div>
+      </div>
+    </div>
+</article>
+<!-- </div> -->
+<br><br><br>
+
+
+
+    <article class="menu-item col-5 border border-1 row" style=" width: 90%; background-color: rgb(201, 183, 183); height: 70vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet;">
+      <h2 class="ps-5">FESTAC TOWN, LAGOS STATE</h2>   
+    <div class="col-4">
+      <div class="card" style="width: 50rem;">
+        <div class="card-body">
+          <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/04/Screenshot_20240331-1111142-400x280.jpg?lossy=2&strip=1&webp=1" class="enlarge-image" alt="" style="">
+          <h1 class="card-title">FOR SALE ₦15,000,000 (fixed) Details</h1>
+          <p class="card-text">
+            This land comes with a registered survey and deed of assignment, ensuring a smooth and secure transaction.
+            
+            Key Landmarks:
+            
+            For a stress-free commute: Located just after the Early Boarding School Festac.
+            Entertainment nearby: A 10-minute drive from the popular 2face Idibia Remorse Club.
+            Added security: Proximity to the Army Checkpoint ensures a safe environment.            
+            Overview
+            Category: Plots & Land
+            State: Lagos
+            City: Festac
+            Town: Town
+            Land Type: Residential
+            Land Size: 600SQM
+            
+            </p>
+    <button class="buy-button" onclick="buyItem('House 2', 150000000)">Buy Now</button>
+
+        </div>
+      </div>
+      </div>
+      <!-- </div> -->
+    <!-- </div> -->
+</article>
+<!-- </nav> -->
+<br><br><br> 
+
+
+<div class="Container-6">   
+
+<nav bar="row-3">
+
+    <article class="menu-item col-5 border border-1 row" style=" width: 90%; height: 70vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+      <h2 class="ps-5">SAPPHIRE CITY ESTATE, IBEJU LEKKI, LAGOS STATE.</h2>
+    <div class="col-4">
+      <div class="flexcard row text-center ms-5 mb-5 " >
+      <div class="card" style="width: 50rem;">
+        <div class="card-body">
+          <img src=" https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2023/11/FLYER5-400x280.jpg?lossy=2&strip=1&webp=1" class="enlarge-image" alt="" style="">
+          <h1 class="card-title">For Sale  4,500,000</h1>
+          <p class="card-text">Affordable Plots of Land Featured Promoted
+            Land Type Residential  State Lagos  City Ibeju Lekki  Town Elerangbe  Business Name Jireh Homes
+            *DECEMBER LANDLORD PROMO* 🎅 🎅 🎅 *SAPPHIRE CITY ESTATE* Real estate investment has proven to be the best way to financial freedom. On that note…
+        
+            </p>
+    <button class="buy-button" onclick="buyItem('Sapphire City Estate', 4500000)">Buy Now</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    </article>
+  
+<br><br><br><br><br>
+
+
+
+<article class="menu-item col-5 border border-1 row" style=" width: 90%;  height: 70vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+  <h2 class="ps-5">You control how much you want to spend</h2>
+  <div class="flexcard row text-center ms-5 mb-5 ">
+    <div class="col-4">
+      <div class="card" style="width: 50rem;">
+        <div class="card-body">
+          <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/03/IMG-20240305-WA0132-400x280.jpg?lossy=2&strip=1&webp=1" class="enlarge-image" alt="">
+          <h1 class="card-title">for sale ₦30,000,000</h1>
+          <p class="card-text">Land with C of O facing the new lekki international Airport
+            Land Type Residential  State Lagos  City Lekki  Town Epe  Business Name Oana Homes and Properties
+            Ajah, Lagos
+            CITY PEARL & GARDEN ESTATE PRICE INCREASE ALERT EFFECTIVE FROM MARCH 15TH,2024 Introducing City Pearl & Garden: Your Gateway to Prime Real Estate Investment! Discover…
+          
+  </p>
+  <button class="buy-button" onclick="buyItem('House 2', 150000000)">Buy Now</button>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
+  <br><br><br><br><br>
+  
+
+
+  <article class="menu-item col-5 border border-1 row" style=" width: 90%;  height: 70vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+    <h2 class="ps-5">AKWA, ANAMBRA STATE</h2>
+      <div class="col-4">
+      <div class="card" style="width: 50rem;">
+        <div class="card-body">
+          <img src=" https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/03/Awba-400x280.jpg?lossy=2&strip=1&webp=1" class="enlarge-image" alt="">
+                  <h1 class="card-title">for sale ₦600,000</h1>
+                  <p class="card-text"> Can You Believe you can Still Get an Affordable Land For Sell in Awka Anambra State?, Yes you Can with Kruz Enterprise
+                    Land Type Agricultural  State Anambra  City Awba Ofemili  Town Awbaofemili  Business Name Kruz Enterprise
+                    Awka, Anambra
+                    I am thrilled to share with you an exciting opportunity to own a piece of land in the rapidly developing area of Awba Ofemili Awka…
+                    
+                    </p>
+    <button class="buy-button" onclick="buyItem('Awka Anambra State', 600000)">Buy Now</button>
+
+                </div>
+              </div>
+        </div>
+      <!-- </div> -->
+            </article>
+            </nav>
+<br><br><br><br><br>
+
+
+
+<nav bar="row-3">
+
+  <article class="menu-item col-5 border border-1 row" style=" width: 90%;  height: 70vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+  <h2 class="ps-5">Verdant Estate, Ibeju Lekki</h2>
+        <div class="col-4">
+          <div class="card" style="width: 50rem;">
+            <div class="card-body">
+              <img src=" https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/02/the-verdant-number-2-400x280.png?lossy=2&strip=1&webp=1"  class="enlarge-image"alt="">
+              <h1 class="card-title">For Sale  #13,500,000</h1>
+              <p class="card-text">Residential/Commercial Prime Land by Lekki Epe Expressway – The Verdant By Whiterose
+                Land Type Residential  State Lagos  City Lekki  Town Ibeju Lekki  Business Name Whiterose Properties
+                Lekki Phase 1, Lagos
+                Own your paradise at The Verdant by Whiterose Located at, Ayetoro Government Scheme, Ibeju Lekki, Lagos State With a delightful 10% discount! Act fast to…</p>
+    <button class="buy-button" onclick="buyItem('Verdant Estate', 13500000)">Buy Now</button>
+
+            </div>
+          </div>
+        </div>
+</article>
+<br><br><br><br><br>
+
+
+<article class="menu-item col-5 border border-1 row" style=" width: 90%;  height: 70vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+  <h2 class="ps-5">PRIME LAND, OSUN STATE.</h2>
+        <div class="col-4">
+            <div class="card py-2" style="width: 50rem;">
+                <div class="card-body">
+                    <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/02/Screenshot_20240119-103801-400x280.png?lossy=2&strip=1&webp=1" class="enlarge-image" alt="">
+                  <h1 class="card-title">For Sale   ₦2,600,000</h1>
+                  <p class="card-text">PRIME LAND
+                    Land Type Commercial  State Osun State  City Ilesa  Town Ilesa
+                    Ilesha, Osun
+                    Unlock unparalleled opportunities in commercial and industrial innovation by securing prime land for your investment. Benefits: (1) C of O (2) Good road network (3)…
+                
+                    </p>
+    <button class="buy-button" onclick="buyItem('Prime Land', 2600000)">Buy Now</button>
+
+                </div>
+              </div>
+        </div>
+    <!-- </div> -->
+  </article>
+    <br><br><br><br><br>
+
+
+
+
+<article class="menu-item col-5 border border-1 row" style="  height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+        <h2 class="ps-5">You control how much you want to spend</h2>
+        <div class="flexcard row text-center ms-5 mb-5 ">
+            <div class="col-4">
+                <div class="card" style="width: 50rem;">
+                    <div class="card-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT9yyUf1Mt3nW6I4F1yKhgk9QeT3j5Evcw8A&s " class="enlarge-image" alt="">
+                      <h1 class="card-title">Choose your budget</h1>
+    
+    <p class="card-text">You can adjust your spending or close your job at any time.</p>
+    <button class="buy-button" onclick="buyItem('House 2', 150000000)">Buy Now</button>
+
+                    </div>
+                  </div>
+            </div>
+            </div>
+            <br>
+</article>
+<!-- </nav> -->
+<br><br><br><br><br>
+
+
+<nav bar="row-3">
+
+<article class="menu-item col-5 border border-1 row" style="  height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+  <h2 class="ps-5">OPPOSITE NEW LEKKI INTERNATIONAL AIRPORT</h2>
+    <div class="col-4">
+              <div class="card" style="width: 50rem;">
+                <div class="card-body">
+                  <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/02/FB_IMG_1706898598508-400x280.jpg?lossy=2&strip=1&webp=1 " class="enlarge-image" alt="">
+                  <h1 class="card-title">For Sale  ₦30,000,000</h1>
+                  <p class="card-text">OWN A PLOT OF LAND OPPOSITE THE NEW LEKKI INTERNATIONAL AIRPORT IN IBEJU LEKKI LAGOS 
+                    Land Type Residential  State Lagos  City Ibeju Lekki Lagos  Town Opposite the newly approved Lekki international Airport Ibeju Lekki Lagos
+                    Lekki, Lagos
+                    OWN A PLOT OF LAND OPPOSITE THE NEW LEKKI INTERNATIONAL AIRPORT IN IBEJU LEKKI LAGOS FAIRMONT GREEN AND SMART ESTATE is still selling and price…
+                    </p>
+    <button class="buy-button" onclick="buyItem('Opposite New Lekki International airport', 30000000)">Buy Now</button>
+
+                </div>
+              </div>
+            </div>
+          </article>
+<br><br><br><br><br>
+
+
+          <article class="menu-item col-5 border border-1 row" style="  height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+            <h2 class="ps-5">MOWE TOWN, OGUN STATE.  WITH C OF O</h2>
+            <div class="col-4">
+                <div class="card" style="width: 50rem;">
+                    <div class="card-body">
+                        <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/02/IMG-20240129-WA0051-400x280.jpg?lossy=2&strip=1&webp=1 " class="enlarge-image" alt=" ">
+                      <h1 class="card-title">For Sale  ₦7,500,000</h1>
+                      <p class="card-text">
+                        Plots & Land
+                        Buy and Build Land in Mowe Town with C of O
+                        Land Type Residential  State OGUN STATE  City: Mowe Town, OGUN STATE , 10 minutes to Redemption Camp  Business Name Property Hub Naija.
+                        ALMOND COUNTY ESTATE, MOWE TOWN   -12 MONTHS FLEXIBLE PAYMENT PLAN* – *500K INITIAL DEPOSIT* – *CERTIFICATE OF OCCUPANCY TITLE   It’s a dynamic estate…</p>
+    <button class="buy-button" onclick="buyItem('Mowe town', 7500000)">Buy Now</button>
+
+                    </div>
+                  </div>
+            </div>
+          </article>
+<br><br><br><br><br>
+          
+
+
+          <article class="menu-item col-5 border border-1 row" style="   height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+            <h2 class="ps-5">C of O Land in Ibeju Lekki</h2>
+            <div class="col-4">
+                <div class="card py-2" style="width: 50rem;">
+                    <div class="card-body">
+                        <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/02/Screenshot_20240130-201852-400x280.png?lossy=2&strip=1&webp=1 " class="enlarge-image" alt="">
+                      <h1 class="card-title">For Sale  ₦22,100,000</h1>
+                      <p class="card-text">C of O Land in Ibeju Lekki Lagos Facing the Express
+                        Land Type Residential  State LAGOS  City Ibeju Lekki  Town IBEJU LEKKI LAGOS after Dangote Refinery, 5 minutes from Lekki Sea Port Ibeju Lekki Lagos
+                        Lekki, Lagos
+                   
+                        THE MALDIVES GARDEN OSHOROKO- IBEJU LEKKI THE MALDIVES GARDEN OSHOROKO IBEJU LEKKI is strategically located in the heart of Ibeju Lekki along the Ibeju Lekki-Akodo…</p>
+    <button class="buy-button" onclick="buyItem('C of O Land in Ibeju Lekki', 22100000)">Buy Now</button>
+                    
+                      </div>
+                  </div>
+            <!-- </div> -->
+        </div>
+          </article>
+</nav>
+<br><br><br><br><br>
+
+
+
+  <nav bar="row-3">
+
+<article class="menu-item col-5 border border-1 row" style="  height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+
+        <h2 class="ps-5">You control how much you want to spend</h2>
+        <div class="flexcard row text-center ms-5 mb-5 ">
+            <div class="col-4">
+                <div class="card" style="width: 50rem;">
+                    <div class="card-body">
+                        <img src=" https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2021/05/IMG-20210108-WA0011-400x280.jpg?lossy=2&strip=1&webp=1" class="enlarge-image" alt="">
+                      <h1 class="card-title">Choose your budget</h1>
+                      <p class="card-text">You can adjust your spending or close your job at any time.</p>
+    <button class="buy-button" onclick="buyItem('House 2', 150000000)">Buy Now</button>
+                    
+                    </div>
+                  </div>
+            </div>
+            </div>
+                </article>
+                <br><br><br><br><br>
+
+
+                
+                
+                <article class="menu-item col-5 border border-1 row" style="  height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+                  <h2 class="ps-5">HARMONY HAVEV CITY IGBOOYE, EPE, LAGOS STATE</h2>
+            <div class="col-4">
+              <div class="card" style="width: 50rem;">
+                <div class="card-body">
+                  <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2022/11/A16355F8-3797-4F91-AE85-BC7888C67226-400x280.png?lossy=2&strip=1&webp=1" class="enlarge-image" alt="">
+                  <h1 class="card-title">Receive more applicants</h1>
+                  <p class="card-text">ketu Epe.</p>
+    <button class="buy-button" onclick="buyItem('House 2', 150000000)">Buy Now</button>
+
+                </div>
+              </div>
+            </div>
+                </article>
+<br><br><br><br><br>
+
+
+                <article class="menu-item col-5 border border-1 row" style="  height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+                  <h2 class="ps-5">BLISSFUL GARDEN ESTATE, IBEJU LEKKI</h2>
+            <div class="col-4" >
+                <div class="card" style="width: 50rem;">
+                    <div class="card-body">
+                        <img src="https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/01/22-400x280.jpg?lossy=2&strip=1&webp=1 " class="enlarge-image" alt="">
+                      <h1 class="card-title">For Sale   ₦9,980,000</h1>
+                      <p class="card-text">Plots of land available for sale in Blissful Garden Estate
+                        Land Type Residential  State Lagos  City Lekki  Town Ibeju-Lekki  Business Name Lifecard International Investment Company
+                        Lekki, Lagos
+                        Blissful Garden Estate is located in the heart of Oshoroko, off Lekki-Epe Expressway, Ibeju-Lekki, Lagos, Nigeria, it is strategically located close to the prestigious lekki…</p>
+    <button class="buy-button" onclick="buyItem('Blissful Garden estate', 9980000)">Buy Now</button>
+                   
+                      </div>
+                  </div>
+            </div>
+                </article>
+  </nav>
+  <br><br><br><br><br>
+
+
+
+
+<nav bar="row-4">
+
+                <article class="menu-item col-5 border border-1 row" style="  height: 60vh; color: black; border-style: double; border-radius: 5px ; border-color: blueviolet; ">
+                  <h2 class="ps-5">RESIDENTIAL PLOTS, AKURE, ONDO STATE.</h2>
+            <div class="col-4">
+                <div class="card py-2" style="width: 50rem;">
+                    <div class="card-body">
+                        <img src=" https://b2941772.smushcdn.com/2941772/wp-content/uploads/classified-listing/2024/01/Screenshot_20231217-145431-400x280.jpg?lossy=2&strip=1&webp=1" class="enlarge-image" alt="">
+                      <h1 class="card-title">For Sale  ₦650,000</h1>
+                      <p class="card-text">Plots of Land
+                        Land Type Residential  State Ondo  City Akure  Town Akure
+                        </p>
+
+    <button class="buy-button" onclick="buyItem('Residential Plot, Akure', 650000)">Buy Now</button>
+
+                    </div>
+                  </div>
+            </div>
+          </div>        
+        
+      </div>
+    
+      <!-- </div> -->
+                </article>
+              </nav>
+              <br><br><br><br><br>
+              
+
+ 
+
+<!-- Footer begins here     -->
+
+
+
+<div class="container4">
+  <div class="footer-flex">
+          <div class="list">
+              <li class="fada"><h3>Services</h3></li>
+              <li class="fada"><a href="#">property for sale in Negeria</a></li>
+              <li class="fada"><a href="#"> property for rent in Negeria</a></li>
+              <li class="fada"><a href="#">property for Lease in Negeria</a></li>
+              <li class="fada"><a href="#">Short Let Negeria</a></li>
+              <li class="fada"><a href="#">Apartment for Sale</a></li>
+              <li class="fada"><a href="#">Apartment for rent</a></li>
+              <li class="fada"><a href="#"> Real Estate Academy</a></li>
+              <li class="fada"><a href="#">property Listing</a></li>
+          </div>
+          
+     
+          <div class="list">
+              <li class="fada"><h3>Products</h3></li>
+              <li class="fada"><a href="#">Studio Apartment</a></li>
+              <li class="fada"><a href="#">One-Bedroom Apartment</a></li>
+              <li class="fada"><a href= "#">Two-Bedroom Apartment</a></li>
+              <!-- <li class="fada"><a href="#">ee-Bedroom Apartment</a></li> -->
+              <li class="fada"><a href="#">Loft Apartment</a></li>
+              <li class="fada"><a href="#">Duplex Apartment</a></li>
+              <li class="fada"><a href="#"> Penthouse Apartment</a></li>
+              <li class="fada"><a href="#">Basement Apartment</a></li>
+              <li class="fada"><a href="#">Servised Apartment</a></li>
+              
+          </div>
+              
+      
+          <div class="list">
+              <li class="fada"><h3>Support</h3></li>
+              <li class="fada"><a href="#">Help center</a></li>
+              <li class="fada"><a href="#">Contact us</a></li>
+              <li class="fada"><a href="#">Privacy & terms</a></li>
+              <li class="fada"><a href="#">Cookie policy</a></li>
+              <li class="fada"><a href="#">Cookies & CCPA preferences</a></li>
+              <li class="fada"><a href="#">AI principles</a></li>
+              <li class="fada"><a href="#"> Sitemap</a></li>
+              <li class="fada"><a href="#">Learning resources</a></li>
+               
+          </div>
+             
+      
+                     <div class="list">
+              <li class="fada"><h3> Community</h3></li>
+              <li class="fada"><a href="#">Partner companies</a></li>
+              <li class="fada"><a href="#">Developers</a></li>
+              <li class="fada"><a href="#">Community forums</a></li>
+              <li class="fada"><a href="#">Referrals</a></li>
+              <li class="fada"><a href="#">Reseller partners</a></li>
+              <li class="fada"><a href="#">Integration partners</a></li>
+           
+          
+      </div>
+</div> 
+                    <div class="socail"> 
+
+               <p class="icon"> 
+              <a href=" "><i></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-telegram"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://wa.me/p/7448545831840816/2347033592895"><i class="fa-brands fa-whatsapp"></i></a>
+
+
+          </p>
+      <!-- </div> -->
+      
+      <div>    
+        <footer>
+          <p>&copy; 2024 Real Estate Listing Platform</p>
+        </footer> 
+        </div>
+
+
+      <div class="english">
+          <p class="eng">
+            
+          <a href="#" class="go"> <i class="fa-solid fa-globe"></i> English (United States)</a>
+          <i class="fa-solid fa-angle-right go"></i>
+          </p>
+                    </div>
+      </div>
+
+
+</div>
+
+    </div>
+  
+  <script src="land.js"></script>
+   
+</body>
+</html> 

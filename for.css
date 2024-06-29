@@ -1,0 +1,60 @@
+
+
+
+/* Add your CSS styles here */
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkq23LjBWxpyn6rSzkG6Xkq85duaNvteSJQA&s');
+    /* background-image: url('https://victoriacresthomes.ng/wp-content/uploads/2023/09/DJI_0220-1-592x444.jpg'); */
+    background-size: cover;
+    background-position: left;
+    background-position: center;
+    /* background-color: rgb(188, 132, 241); */
+    height: 50vh;
+    
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background-color: gray; */
+    }
+    .register{
+
+        width: 60%;
+        height: 7vh;
+        background-color: aliceblue;
+        color: black;
+        text-decoration: none;
+    }
+
+                                                                                                                                                                                                                                                                                                                                                
+ .form{
+     background-color: aliceblue;
+     border-radius: 10%;
+    /* height: 40vh; */
+     width: 50%;
+     margin: 0px auto;
+ }
+ .form h3{
+     font-size: 40px;
+     padding: 15px;
+     
+     text-align: center;
+     color: rgb(144, 167, 187);
+ 
+ }
+ .form input{
+     background: transparent;
+     margin: 10px 9px;
+     /* border: none; */
+     outline: none;
+     border: 2px solid black;
+     border-radius: 15px;
+     color: black;
+     padding: 7px 70px;
+     font-size: 15px;
+     text-align: center;
+ }
+                    
+     
+     .login{
+        color: aliceblue;
+     }

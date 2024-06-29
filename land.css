@@ -1,0 +1,453 @@
+
+
+.menu-item{
+   width: 90%;
+   height: 70vh;
+   background-color: yellow;
+}
+
+
+/* header design start here */
+  
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   /* display: flex; */
+ }
+ 
+ nav li {
+   position: relative;
+   margin: 0 10px;
+ }
+ 
+ nav li a {
+   color: white;
+   text-shadow: #333;
+   font-weight: bolder;
+   text-decoration: none;
+   padding: 10px;
+ }
+ 
+ .dropdown {
+   display: none;
+   position: absolute;
+   background-color: #333;
+   min-width: 160px;
+   z-index: 1;
+ }
+ 
+ .dropdown li {
+   display: block;
+   margin: 0;
+   
+ }
+ 
+ .dropdown li a {
+   padding: 10px 20px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ nav li:hover >.dropdown {
+   display: block;
+   background-color: black;
+   border-radius: 10px;
+   color: black;
+ }
+/*  
+   
+   /* header ends here */
+/*  
+
+/* 
+
+Here is my responsiveness design
+/* @media (max-width: 950px)  { */
+
+.container-fluid{
+
+   
+   height: 20vh;
+   background-color: blueviolet;
+   /* position: fixed; */
+ }
+
+
+ 
+ header {
+   text-align: center; 
+    /* background-color: blueviolet; */
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    background-color: blueviolet;
+    /* position: fixed; */
+  }
+
+  .logo{
+width: 20%;
+height: 40vhvh;
+/* background-color: red; */
+  }
+
+  header h1{
+    text-align: center;
+    
+  }
+  
+  nav ul {
+    
+    list-style-type: none;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-section, .property-list-section {
+    padding: 2rem;
+  }
+
+ 
+ 
+
+ 
+.container3{
+   background-color: rgb(15, 15, 32);
+   margin-top: -20px;
+   color: aliceblue;
+   height: 25vh;
+   text-decoration: none;
+   
+}
+.refer-flex{
+   display: flex;
+   /* align-items: center; */
+   justify-content: space-between;
+}
+.container3 h1{
+   font-size: 40px;
+   padding: 30px;
+   margin-left: 5%;
+
+}
+
+.friend{
+   margin-right: 20%;
+}
+.friend a{
+   color: rgb(2, 2, 2);
+   background-color: rgb(20, 20, 224);
+   padding: 23px 30px;
+   font-weight: bold;
+   font-size: 17px;
+   
+}
+.friend a:hover{
+   background-color: rgb(67, 67, 207);
+   color: rgb(0, 0, 7);
+}
+
+.ps-5{
+   font-size: large;
+   font-weight: bolder;
+   font-style: normal;
+   color: blueviolet;
+}
+
+.card-body{
+   background-color: rgb(177, 126, 225);
+   border-radius: 10%;
+}
+
+
+.enlarge-image{
+   width: 300px;
+   height:200px;
+}
+
+/* refer friend section ends here */
+
+/* footer section start here  */
+.container4{
+   
+   background-color: blueviolet;
+   color: aliceblue;
+   height: 99vh;
+   text-decoration: none;
+
+   
+}
+.footer-flex{
+ display: flex;
+ 
+
+}
+.list li a{
+   color: aliceblue;
+   font-size: 17px;
+}
+.list h3{
+   font-weight: bold;
+   color: blue;
+   font-size: 20px;
+}
+
+
+
+.list{
+   /* background-color: aqua; */
+   margin: 35px;
+   padding: 8px;
+   
+}
+.fada{
+   padding-bottom: 18px;
+   
+   
+}
+.fada a:hover{
+   text-decoration: none;
+   color: blue;
+   
+}
+.icon a{
+   color: aliceblue;
+   margin: 10px;
+   
+}
+.socail{
+   /* background-color: aqua; */
+   width: 100%;
+   height: 10vh;
+   background-color: blueviolet;
+   margin: 10px;
+}
+.fa-twitter:hover{
+   
+   color: rgb(148, 148, 148);
+   transform: scale(1.5);
+   background-color: rgba(243, 239, 7, 0.315);
+   border-radius: 4px;
+
+}
+
+.fa-twitter{
+   color: black;
+   background-color: aliceblue;
+}
+.icon{
+   
+   margin-left: 40%;
+   padding-top: 10px;
+}
+
+.fa-facebook:hover{
+   
+   color: rgb(10, 61, 226);
+   transform: scale(1.5);
+   background-color: rgba(243, 239, 7, 0.315);
+   border-radius: 4px;
+
+}
+
+.fa-facebook{
+   width: 10px;
+   /* height: 4vh; */
+   background-color: white;
+   color: blue;
+}
+
+.fa-youtube:hover{
+   
+   color: rgb(214, 19, 19);
+   transform: scale(1.5);
+   background-color: rgba(241, 158, 56, 0.486);
+   border-radius: 4px;
+
+}
+
+.fa-youtube{
+   color: brown;
+   background-color: aliceblue;
+}
+
+
+
+.fa-telegram:hover{
+   
+   color: rgb(6, 172, 172);
+   transform: scale(1.5);
+   background-color: rgba(241, 158, 56, 0.486);
+   border-radius: 4px
+}
+
+.fa-telegram{
+   color: aqua;
+   background-color: aliceblue;
+}
+
+.fa-instagram:hover{
+   
+   color: darkorchid;
+   transform: scale(1.5);
+   background-color: rgba(241, 158, 56, 0.486);
+   border-radius: 4px
+}
+
+.fa-instagram{
+   color: blue;
+   /* background-color: aliceblue; */
+}
+
+.english{
+   margin: 35px;
+   background-color: black;
+   width: 20%;
+   font-size: larger;
+   
+}
+.eng a{
+   color: aliceblue;
+   font-size: 15px;
+}
+.go{
+   margin: 10px;
+}
+.eng a:hover{
+   
+   color: rgb(6, 172, 172);
+   text-decoration: underline;
+
+}
+
+
+
+
+/* Modal design start here */
+
+
+.listing {
+   text-align: center;
+   margin: 20px;
+ }
+ 
+ img {
+   width: 70%;
+   height: 350px;
+   
+ }
+ 
+ 
+ .buy-button {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   margin-top: 10px;
+ }
+ 
+ .modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%; 
+   height: 100%; 
+   overflow: auto;
+   background-color: rgba(0,0,0,0.4);
+ }
+ 
+ .modal-content {
+   background-color: yellowgreen;
+   margin: 15% auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%;
+ }
+ 
+ .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ 
+ 
+/* Modal design ends here  */
+
+
+
+
+
+/* Adjust the layout of the articles */
+.menu-item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2rem;
+ }
+ 
+ /* Style the card elements */
+ .card {
+   border: none;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: box-shadow 0.3s ease;
+ }
+ 
+ .card:hover {
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+ }
+ 
+ .card .enlarge-image {
+   max-width: 100%;
+   height: auto;
+   transition: transform 0.2s ease;
+ }
+ 
+ .card:hover .enlarge-image {
+   transform: scale(2.25);
+ }
+ 
+ /* Add responsive styles */
+ @media (max-width: 767px) {
+   .menu-item {
+     width: 100%;
+     height: auto;
+   }
+ 
+   .card {
+     width: 100%;
+   }
+ }
+ 
+
+
+
+
+
+
+
